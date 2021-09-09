@@ -1,7 +1,8 @@
 package src.haru.harurest;
 
 /*
-    Work as a Data model for attaching into request under JSON format
+    Work as a Data model for attaching into request under JSON format automatically
+    by Spring's MappingJackson2HttpMessageConverter class.
 */
 public class HaruService {
     

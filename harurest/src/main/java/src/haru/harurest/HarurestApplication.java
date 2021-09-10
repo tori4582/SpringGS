@@ -27,7 +27,7 @@ public class HarurestApplication {
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext context) {
 		return (args) -> {
-			System.out.println("Inspecting Beans provided by Spring Boot:");		
+			System.out.println("Inspecting Beans provided by Spring Boot:");
 
 			String[] beanNames = context.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
